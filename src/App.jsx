@@ -1,13 +1,9 @@
-import "./App.css";
+import Gallary from "./components/Gallary";
 
-function App() {
-  return (
-    <div>
-      <div>
-        <h1>Mohammad SR </h1>
-      </div>
-    </div>
-  );
+function App(){
+    return (
+        <Gallary/>
+    );
 }
 
 export default App;
